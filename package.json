@@ -1,0 +1,14 @@
+{
+  "name": "node-express-js",
+  "version": "1.0.0",
+  "description": "The purpose of this repo is to track my ExpressJS learning progress following this course - https://www.youtube.com/watch?v=32M1al-Y6Ag",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tendai Mbwanda",
+  "license": "MIT"
+}
