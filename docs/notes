@@ -42,3 +42,18 @@ Web scraping
 
 NB: Node is NOT GOOD for CPU-intensive tasks
 
+Setup
+  package.json
+	* first thing is almost always creating a package.json
+	* you can do this with npm init
+  	  - add the -y option to skip the interactivity
+	* or just create it yourself from scratch
+	* "scripts" - npm scripts you can use to 
+	  - run tests,
+ 	  - start/stop your server
+
+  entrypoint - index.js OR whatever name you specify
+ 	* just a script with statements
+	* running script
+		node <entrypoint>/<script-name.js>
+	
