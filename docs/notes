@@ -1,0 +1,44 @@
+Introduction
+- runtime, built in C++
+- takes JS out of the browser
+- other JS runtimes exist, eg. Deno
+
+Course Contents
+What is node.js & how does it work
+Installation, setup, package.json, npm, etc
+Modules - import/export, commonJS & ES modules
+HTTP module - foundation for ExpressJS
+Custom middleware
+Other core modules - fs, path, uel, events
+
+How Node.js Works
+V8 JS Engine (C++)
+* interprets JS -> binary
+
+Non-Blocking
+* does not wait for I/O ops
+  - file ops
+  - db calls
+  - network calls
+* events & callbacks used to synchronize I/O ops with
+  "actors"
+
+Single-Threaded
+* uses event loop to perform non-blocking ops
+* I/O operation -> 
+  event loop continues -> 
+  I/O operation returns -> 
+  triggers callback -> 
+  call back goes to event queue -> 
+  event loop picks up callback
+
+Common Node.js Uses
+APIs
+CLI tools
+Real-time apps
+Microservices
+Web servers
+Web scraping
+
+NB: Node is NOT GOOD for CPU-intensive tasks
+
