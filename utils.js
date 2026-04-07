@@ -1,12 +1,13 @@
-function generateRandomNumber() {
+export function generateRandomNumber() {
 	return Math.floor(Math.random() * 100) + 1;
 }
 
-function square(number) {
+export function square(number) {
 	return number**2;
 }
 
-module.exports = {
-		   generateRandomNumber,
-		   square
-		 };
+function whatIsMyNumber(number) {
+	return number;
+}
+
+export default whatIsMyNumber;

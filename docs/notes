@@ -77,11 +77,19 @@ Setup
 	   -> const { item1, item2, ... , itemN } = require(<path_to_module_with_function>);
 
   * using ES module system (import/export syntax)
-
-	 
 	
-	
+	first change the module system in package.json
+	- add the following key and value
+	  -> "type": "module"
 
+	in the script with the function you want to export
+	-> export <function_name>() { ... } OR
+           export default <function_name>
+
+	in the script you want to use the function
+	-> import myDefaultFunction from "<path_to_module_with_function>"; OR
+	   import { function, function } from "<path_to_module_with_function>";
+	
   * you can also export objects & other types of data in the same way
 
 

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The purpose of this repo is to track my ExpressJS learning progress following this course - https://www.youtube.com/watch?v=32M1al-Y6Ag",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
