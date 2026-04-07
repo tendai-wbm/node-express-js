@@ -56,4 +56,32 @@ Setup
  	* just a script with statements
 	* running script
 		node <entrypoint>/<script-name.js>
+
+  using a function in other files
+  * you must export a function to be able to use it elsewhere
+  * the native node.js module system is CommonJS
+
+	in the script with the function you want to export
+	-> module.exports = <function_name>;	
+
+	in the script you want to use the function
+	-> (const) myImportedFunction = require(<path_to_module_with_function>);
+
+	this is called a default export;
 	
+	** to export multiple items:
+	   in the exporting script
+	   -> module.exports = { item1, item2, ... , itemN }
+
+	   in the importing script
+	   -> const { item1, item2, ... , itemN } = require(<path_to_module_with_function>);
+
+  * using ES module system (import/export syntax)
+
+	 
+	
+	
+
+  * you can also export objects & other types of data in the same way
+
+

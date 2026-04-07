@@ -1,1 +1,4 @@
-console.log("WTF - I was using 'echo'!")
+const { generateRandomNumber, square } = require("./utils");
+
+console.log(generateRandomNumber());
+console.log(square(10));
