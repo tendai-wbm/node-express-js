@@ -11,5 +11,8 @@
     "startserver": "node server.js"
   },
   "author": "Tendai Mbwanda",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
