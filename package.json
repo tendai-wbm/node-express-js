@@ -8,7 +8,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "startserver": "node server.js"
   },
   "author": "Tendai Mbwanda",
   "license": "MIT"
