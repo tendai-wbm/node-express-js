@@ -8,7 +8,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "startserver": "nodemon server.js"
+    "startserver": "nodemon server2.js"
   },
   "author": "Tendai Mbwanda",
   "license": "MIT",
